@@ -1,0 +1,720 @@
+/* Fonts */
+
+@font-face {
+	font-family: 'CircularStd-Medium';
+	
+	src: url('../fonts/CircularStd-Medium.woff') format('woff'),	
+	url('../fonts/CircularStd-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'CircularStdBook';
+	src: url('../fonts/CircularStd-Book.woff')format('woff'),
+	url('../fonts/CircularStd-Book.woff2')format('woff2');	
+}
+
+@font-face {
+	font-family: 'CircularStdBlack';
+	
+	src: url('../fonts/CircularStd-Black.woff')format('woff'),
+	url('../fonts/CircularStd-Black.woff2')format('woff2');
+}
+
+/* Hero */
+
+.hero {
+	background: #32337C;
+}
+
+.hero .text-block h2 {
+	font-family: 'Muli';
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 56px;	
+	color: #EBF0FF;
+	padding: 30px 0px;
+  margin: 0px -12px;
+}
+
+.hero .text-block p {
+	font-family: 'Muli';
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 300;
+	color: #EBF0FF;
+	opacity: .8;
+	padding-bottom: 60px;
+}
+
+.hero .text-block a {
+	font-family: 'Muli';
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;	
+	color: #7069D2;
+	margin-right: 32px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.hero .text-block a:hover {
+	color: #F8B0CB;
+	text-decoration: none;
+	
+}
+
+/* Buttons */
+
+.btn.btn-primary {
+	background: #6565D5;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.177395);
+	border-radius: 0px;
+	border-color: #6565D5;
+	font-family: 'Muli';
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;	
+	color: #FFFFFF !important;
+	padding: 15px 25px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+	
+}
+
+.btn.btn-primary:hover {
+	opacity: .8;
+}
+/*****************/
+/* Landing Page */
+/***************/
+
+
+/* Landing Hero */
+.landing-hero {
+	background: #32337C;
+	
+}
+
+.landing-hero .text-block {
+	height: 645px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.landing-hero h2 {
+	font-family: 'CircularStd-Medium';
+	color: #EBF0FF;
+	text-align: center;
+	font-size: 42px;
+	line-height: 56px;
+}
+
+.landing-hero p {
+	font-family: 'CircularStdBook';
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	opacity: .8;
+	color: #EBF0FF;
+	padding: 23px 0px 75px 0px;
+}
+
+.landing-hero i {
+	color: #FFFFFF;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+
+.landing-hero img {
+	padding: 75px 0px 87px 0px;
+}
+
+/* Landing About Us */
+
+
+.landing-about-us {
+	background: #EBF0FF;
+}
+
+.landing-about-us .info-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 135px 0px 0px 0px;
+}
+
+.landing-about-us h3 {
+	font-family: 'CircularStd-Medium';
+	font-size: 32px;
+	line-height: 56px;	
+	text-align: center;	
+	color: #32337C;
+}
+
+.landing-about-us .info-block p {
+	font-family: 'CircularStdBook';
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;	
+	color: #32337C;
+	opacity: 0.83;
+	padding: 15px 0px 69px 0px;
+}
+
+.landing-about-us .info-block i {
+	
+	font-size: 24px;
+	line-height: 30px;
+	text-align: center;	
+	color: #706AC5;
+	padding: 0px 0px 25px 0px;
+}
+
+.landing-about-us .info-block a i {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	font-size: 25px;
+	color: #726BC6;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */	
+}
+.landing-about-us .info-block a:hover i {
+	padding-top: 20px;
+}
+
+.landing-about-us .info-block a p {
+	padding: 0px;
+	color: #726BC6;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.landing-about-us .info-block a {
+	padding: 30px 0px 120px 0px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.landing-about-us .info-block a:hover {
+	text-decoration: none;
+	opacity: .8;
+}
+
+/* Some Work */
+
+
+.some-work .some-work-title {
+	display: flex;
+	flex-direction: column;
+	padding: 150px 0px 75px 0px;	
+}
+
+.some-work .some-work-title h3 {
+	font-family: 'CircularStd-Medium';
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;	
+	color: #32337C;
+}
+
+.some-work a {
+	display: block;
+	position: relative;	
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.some-work a:hover {
+	text-decoration: none;	
+}
+
+
+
+.some-work a .ceramic-panel {
+	background-image: url('../images/Group%2042.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 430px;
+	margin-bottom: 20px;
+}
+
+.some-work a .ceramic-panel .panel-overlay {
+	background: rgba(109, 99, 93, 0.4);
+	padding: 10px 15px 5px 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.some-work a:hover .ceramic-panel .panel-overlay {
+	background: rgba(109, 99, 93, 0.7);
+	padding: 10px 15px 5px 20px;
+}
+
+.some-work a .ceramic-panel .panel-overlay h5 {
+	
+	font-family: 'CircularStd-Medium';
+	font-size: 19px;
+	line-height: 22px;	
+	color: #FFFFFF;
+}
+
+.some-work a .kojima-panel {
+	background-image: url('../images/Group%2042%20copy.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 430px;
+	margin-bottom: 20px;
+}
+
+.some-work a .kojima-panel .panel-overlay {
+	background: rgba( 0, 0, 0, 0.4);
+	padding: 10px 15px 5px 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.some-work a:hover .kojima-panel .panel-overlay {
+	background: rgba( 0, 0, 0, 0.7);
+	padding: 10px 15px 5px 20px;
+}
+
+.some-work a .kojima-panel .panel-overlay h5 {
+	font-family: 'CircularStd-Medium';
+	font-size: 19px;
+	line-height: 22px;	
+	color: #FFFFFF;
+}
+
+.some-work a .senseye-panel {
+	background-image: url('../images/Group%2042%20copy%202.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 430px;
+	margin-bottom: 20px;
+}
+
+.some-work a .senseye-panel .panel-overlay {
+	background: rgba(47, 67, 116, 0.6);
+	padding: 10px 15px 5px 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.some-work a:hover .senseye-panel .panel-overlay {
+	background: rgba(47, 67, 116, 0.9);
+	padding: 10px 15px 5px 20px;
+}
+
+.some-work a .senseye-panel .panel-overlay h5 {
+	font-family: 'CircularStd-Medium';
+	font-size: 19px;
+	line-height: 22px;	
+	color: #FFFFFF;
+}
+
+.some-work a .cloudvara-panel {
+	background-image: url('../images/Group%2042%20copy%203.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 430px;
+	margin-bottom: 20px;
+}
+
+.some-work a .cloudvara-panel .panel-overlay {
+	background: rgba(243, 140, 105, 0.7);
+	padding: 10px 15px 5px 15px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.some-work a:hover .cloudvara-panel .panel-overlay {
+	background: rgba(243, 140, 105, 0.9);
+	padding: 10px 15px 5px 20px;
+}
+
+.some-work a .cloudvara-panel .panel-overlay h5 {
+	font-family: 'CircularStd-Medium';
+	font-size: 19px;
+	line-height: 22px;	
+	color: #FFFFFF;
+}
+
+/***************/
+/* Pitch Page */
+/*************/
+
+.pitch {
+	background: #32337C;
+}
+
+/* Pitch Title */
+
+.pitch .pitch-title h4 {
+	font-family: 'CircularStd-Medium';
+	font-size: 32px;
+	line-height: 56px;	
+	text-align: center;	
+	color: #FFFFFF;
+	padding: 140px 0px 20px 0px;
+}
+
+.pitch .pitch-title p {
+	font-family: 'CircularStdBook';
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;	
+	color: #FFFFFF;
+	opacity: 0.83;
+}
+
+/* Pitch Info */
+
+.pitch-info {
+	display: flex;
+	justify-content: center;
+	padding: 75px 0px 90px 0px;
+}
+
+.pitch-info a:hover {
+	text-decoration: none;	
+}
+
+.pitch-info a:hover p {
+	opacity: 0.8;
+}
+
+/* Project Header */
+
+.project-header {
+	background: #6264D6;
+	padding: 30px 60px;
+}
+
+.project-header h4 {
+	font-family: 'CircularStd-Medium';
+	font-size: 24px;
+	line-height: 28px;	
+	color: #FFFFFF;
+}
+
+.project-header p {
+	font-family: 'CircularStdBook';
+	font-size: 24px;
+	line-height: 28px;	
+	color: #FFFFFF;
+}
+
+/* Project Details */
+
+.pitch .pitch-info .project-details {
+	background: #25265C;
+	padding: 50px 100px 100px 30px;
+}
+
+.pitch .pitch-info .project-details h5 {
+	font-family: 'CircularStdBook';
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 1px;	
+	color: #F494C1;
+	padding-bottom: 18px; 
+}
+
+.pitch .pitch-info .project-details p {
+	font-family: 'CircularStdBook';
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;	
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+.pitch .pitch-info .project-details a p {
+	font-family: 'CircularStdBook';
+	font-size: 16px;
+	line-height: 19px;	
+	color: #A5A5FF;
+	padding: 20px 0px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+/* Enterprise Header */
+
+.enterprise-header {
+	background: #FF92B4;
+	padding: 30px 50px;
+}
+
+.enterprise-header h4 {
+	font-family: 'CircularStd-Medium';
+	font-size: 24px;
+	line-height: 28px;	
+	color: #FFFFFF;
+}
+
+.enterprise-header p {
+	font-family: 'CircularStdBook';
+	font-size: 24px;
+	line-height: 28px;	
+	color: #FFFFFF;
+}
+
+/* Enterprise Details */
+
+.pitch .pitch-info .enterprise-details {
+	background: #25265C;
+	padding: 50px 100px 25px 30px;
+}
+
+.pitch .pitch-info .enterprise-details h5 {
+	font-family: 'CircularStdBook';
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 1px;	
+	color: #F494C1;
+	padding-bottom: 18px; 
+}
+
+.pitch .pitch-info .enterprise-details p {
+	font-family: 'CircularStdBook';
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;	
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+.pitch .pitch-info .enterprise-details a p {
+	font-family: 'CircularStdBook';
+	font-size: 16px;
+	line-height: 19px;	
+	color: #A5A5FF;
+	padding: 20px 0px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+/* Pitch Details */
+
+.pitch .pitch-details {
+	padding-bottom: 150px;
+}
+
+.pitch .pitch-details h4 {
+	font-family: 'CircularStd-Medium';
+	font-size: 32px;
+	line-height: 56px;	
+	text-align: center;	
+	color: #FFFFFF;
+	padding-bottom: 45px;
+}
+
+.pitch .pitch-details p {
+	font-family: 'CircularStdBook';
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;	
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+
+
+/******************/
+/* Benefits Page */
+/****************/
+
+.benefits {
+	padding: 180px 0px;
+}
+
+/* Benefits Title */
+
+.benefits .benefits-title {
+	padding-bottom: 25px;
+}
+
+.benefits .benefits-title h4 {
+	font-family: 'CircularStd-Medium';
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;	
+	color: #32337C;
+}
+
+/* Benefits Info */
+
+.benefits .benefits-info {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.benefits .benefits-info .benefits-block img {
+	padding-top: 75px;
+}
+
+.benefits .benefits-info .benefits-block h5 {
+	font-family: 'CircularStd-Medium';
+	font-size: 24px;
+	line-height: 28px;	
+	color: #6565D5;
+	padding: 40px 0px;
+}
+
+.benefits .benefits-info .benefits-block p {
+	font-family: 'CircularStdBook';
+	font-size: 18px;
+	line-height: 21px;	
+	color: #32337C;
+	opacity: 0.83;
+}
+
+
+/*************/
+/* CTA Page */
+/***********/
+
+.cta {
+	background-image: url('../images/cta-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 560px;
+	display: flex;
+	align-items: center;
+}
+
+.cta .cta-info {
+	
+}
+
+.cta .cta-info h3 {
+	font-family: 'CircularStdBook';
+	font-size: 28px;
+	line-height: 33px;
+	text-align: center;	
+	color: #FFFFFF;
+	padding-bottom: 30px;
+}
+
+.cta .cta-info h3 str {
+	color: #C799F1;
+}
+
+.cta .cta-info a p {
+	font-family: 'CircularStdBook';
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	text-decoration: underline;
+	color: #FFFFFF;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.cta .cta-info a:hover p {
+	opacity: 0.8;
+}
+
+
+/***********/
+/* Footer */
+/*********/
+
+.footer-wrap {
+	padding: 140px 0px 15px 0px;
+}
+
+.footer-links{
+	display: flex;
+	justify-content: center;
+	padding-left: 50px;
+}
+
+.footer-links a {
+	font-family: 'CircularStdBook';
+	font-size: 15px;
+	line-height: 18px;	
+	color: #6365D6;
+	padding-right: 20px;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.footer-links p {
+	font-family: 'CircularStdBook';
+	font-size: 15px;
+	line-height: 18px;	
+	color: #6365D6;
+	padding-right: 15px;
+}
+
+.footer-links a:hover {
+	text-decoration: none;
+	color: #C799F1;
+}
+
+
+/**************/
+/* Responsive*/
+/************/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.pitch .pitch-info .project-details {
+		padding: 50px 100px 175px 30px;
+	}
+}
