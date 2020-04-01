@@ -20,6 +20,25 @@
 	url('../fonts/CircularStd-Black.woff2')format('woff2');
 }
 
+
+
+/* General */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CircularStd-Medium';
+}
+
+p {
+  font-family: 'CircularStdBook';
+  line-height: 1.4;
+}
+
+strong {
+  font-family: 'CircularStd-Medium';
+}
+
+
+
 /* Buttons */
 
 .btn.btn-primary {
@@ -43,10 +62,12 @@
 .btn.btn-primary:hover {
 	opacity: .8;
 }
+
+
+
 /*****************/
 /* Landing Page */
 /***************/
-
 
 /* Landing Hero */
 .landing-hero {
@@ -55,7 +76,6 @@
 }
 
 .landing-hero h1 {
-	font-family: 'CircularStd-Medium';
 	color: #EBF0FF;
 	text-align: center;
 	font-size: 42px;
@@ -63,7 +83,6 @@
 }
 
 .landing-hero p {
-	font-family: 'CircularStdBook';
 	font-size: 18px;
 	line-height: 21px;
 	text-align: center;
@@ -80,54 +99,45 @@
 	font-size: 25px;
 }
 
-.landing-hero img {
+.landing-hero img.logo {
 	margin-bottom: 85px;
 }
 
-/* Landing About Us */
 
+/* Landing About Us */
 
 .landing-about-us {
 	background: #EBF0FF;
+	padding: 100px 0;
 }
 
-.landing-about-us .info-block {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 135px 0px 0px 0px;
-}
-
-.landing-about-us h3 {
-	font-family: 'CircularStd-Medium';
+.landing-about-us h2 {
 	font-size: 32px;
 	line-height: 56px;	
-	text-align: center;	
 	color: #32337C;
 }
 
-.landing-about-us .info-block p {
-	font-family: 'CircularStdBook';
+.landing-about-us p {
 	font-size: 24px;
-	line-height: 28px;
-	text-align: center;	
 	color: #32337C;
 	opacity: 0.83;
-	padding: 15px 0px 69px 0px;
+	padding: 15px 0px 70px 0px;
 }
 
-.landing-about-us .info-block i {
-	
+.landing-about-us p strong {
+  color: #6264D6;
+}
+
+.landing-about-us em {
+  display: block;
 	font-size: 24px;
 	line-height: 30px;
-	text-align: center;	
 	color: #706AC5;
-	padding: 0px 0px 25px 0px;
+	margin-bottom: 25px;
 }
 
-.landing-about-us .info-block a i {
+.landing-about-us a i {
 	display: flex;
-	text-align: center;
 	justify-content: center;
 	font-size: 25px;
 	color: #726BC6;
@@ -136,33 +146,51 @@
   -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
   transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */	
 }
-.landing-about-us .info-block a:hover i {
+.landing-about-us a:hover i {
 	padding-top: 20px;
 }
 
-.landing-about-us .info-block a p {
-	padding: 0px;
+.landing-about-us a.scroll-down {
+  display: block;
 	color: #726BC6;
 	font-size: 15px;
 	line-height: 18px;
-	text-align: center;
-}
-
-.landing-about-us .info-block a {
-	padding: 30px 0px 120px 0px;
+	position: relative;
+	padding-bottom: 50px;
+	
 	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
   -moz-transition: all 0.3s ease;/* Firefox 4-15 */
   -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
   transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
 }
 
-.landing-about-us .info-block a:hover {
+.landing-about-us a:hover {
 	text-decoration: none;
 	opacity: .8;
 }
 
-/* Some Work */
+.landing-about-us a svg {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  -webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+}
 
+.landing-about-us a:hover svg {
+  bottom: -20px;
+}
+
+.landing-about-us a svg path {
+  fill: #726BC6;
+}
+
+
+/* Some Work */
 
 .some-work .some-work-title {
 	display: flex;
@@ -190,8 +218,6 @@
 .some-work a:hover {
 	text-decoration: none;	
 }
-
-
 
 .some-work a .ceramic-panel {
 	background-image: url('../images/Group%2042.png');
