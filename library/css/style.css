@@ -3,21 +3,21 @@
 @font-face {
 	font-family: 'CircularStd-Medium';
 	
-	src: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/fonts/CircularStd-Medium.woff') format('woff'),	
-	url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/fonts/CircularStd-Medium.woff2') format('woff2');
+	src: url('../fonts/CircularStd-Medium.woff') format('woff'),	
+	url('../fonts/CircularStd-Medium.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'CircularStdBook';
-	src: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/fonts/CircularStd-Book.woff')format('woff'),
-	url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/fonts/CircularStd-Book.woff2')format('woff2');	
+	src: url('../fonts/CircularStd-Book.woff')format('woff'),
+	url('../fonts/CircularStd-Book.woff2')format('woff2');	
 }
 
 @font-face {
 	font-family: 'CircularStdBlack';
 	
-	src: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/fonts/CircularStd-Black.woff')format('woff'),
-	url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/fonts/CircularStd-Black.woff2')format('woff2');
+	src: url('../fonts/CircularStd-Black.woff')format('woff'),
+	url('../fonts/CircularStd-Black.woff2')format('woff2');
 }
 
 /* Hero */
