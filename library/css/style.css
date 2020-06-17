@@ -811,14 +811,14 @@ p {
 
 .about-values h4 {
 	font-size: 36px;
-	padding: 50px 0px 20px 0px;
+	margin: 50px 0 20px 0;
 }
 
 .about-values h3 {
 	font-size: 24px;
 	line-height: 28px;	
 	color: #6565D5;
-	padding: 0px 0px 35px 0px;
+	margin-bottom: 25px;
 }
 
 .about-values p {
@@ -835,9 +835,10 @@ p {
 
 /* The Team */
 
-.svgswoop {
+.team-swoop {
 	display: block;
 }
+
 .the-team {
 	background: #32337C;		
 }
@@ -849,11 +850,21 @@ p {
 	padding: 0px 0px 100px 0px;
 }
 
+.the-team .team-members .col-lg-4 {
+  margin-bottom: 30px;
+}
+
+.the-team .team-members a {
+  display: block;
+  height: 100%;
+}
+
 .the-team .team-members .team-member{
 	position: relative;
   overflow: hidden;
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.50);
-  margin-bottom: 30px;
+  height: 100%;
+  
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -895,12 +906,15 @@ p {
 }
 
 .the-team .team-members .team-member .member-info .name {
+  font-family: 'CircularStd-Medium';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #FFFFFF;
+	margin-bottom: 5px;
 }
 
 .the-team .team-members .team-member .member-info .position {
+  font-family: 'CircularStd-Medium';
 	font-size: 15px;
 	line-height: 18px;	
 	color: #8686FF;
