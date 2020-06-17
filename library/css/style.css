@@ -29,6 +29,14 @@ body {
   text-rendering: optimizelegibility;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CircularStd-Medium';
+}
+
+p {
+  font-family: 'CircularStdBook';
+}
+
 /* Hero */
 
 .hero {
@@ -115,7 +123,6 @@ body {
 }
 
 .landing-hero h2 {
-	font-family: 'CircularStd-Medium';
 	color: #EBF0FF;
 	text-align: center;
 	font-size: 42px;
@@ -123,7 +130,6 @@ body {
 }
 
 .landing-hero p {
-	font-family: 'CircularStdBook';
 	font-size: 18px;
 	line-height: 21px;
 	text-align: center;
@@ -190,7 +196,6 @@ body {
 }
 
 .landing-about-us h3 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 56px;	
 	text-align: center;	
@@ -198,7 +203,6 @@ body {
 }
 
 .landing-about-us .info-block p {
-	font-family: 'CircularStdBook';
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;	
@@ -265,7 +269,6 @@ body {
 }
 
 .some-work .some-work-title h3 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 37px;
 	text-align: center;	
@@ -315,8 +318,6 @@ body {
 }
 
 .some-work a .ceramic-panel .panel-overlay h5 {
-	
-	font-family: 'CircularStd-Medium';
 	font-size: 19px;
 	line-height: 22px;	
 	color: #FFFFFF;
@@ -350,7 +351,6 @@ body {
 }
 
 .some-work a .kojima-panel .panel-overlay h5 {
-	font-family: 'CircularStd-Medium';
 	font-size: 19px;
 	line-height: 22px;	
 	color: #FFFFFF;
@@ -384,7 +384,6 @@ body {
 }
 
 .some-work a .senseye-panel .panel-overlay h5 {
-	font-family: 'CircularStd-Medium';
 	font-size: 19px;
 	line-height: 22px;	
 	color: #FFFFFF;
@@ -418,7 +417,6 @@ body {
 }
 
 .some-work a .cloudvara-panel .panel-overlay h5 {
-	font-family: 'CircularStd-Medium';
 	font-size: 19px;
 	line-height: 22px;	
 	color: #FFFFFF;
@@ -439,7 +437,6 @@ body {
 /* Pitch Title */
 
 .pitch .pitch-title h4 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 56px;	
 	text-align: center;	
@@ -448,7 +445,6 @@ body {
 }
 
 .pitch .pitch-title p {
-	font-family: 'CircularStdBook';
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;	
@@ -480,14 +476,12 @@ body {
 }
 
 .project-header h4 {
-	font-family: 'CircularStd-Medium';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #FFFFFF;
 }
 
 .project-header p {
-	font-family: 'CircularStdBook';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #FFFFFF;
@@ -501,7 +495,6 @@ body {
 }
 
 .pitch .pitch-info .project-details h5 {
-	font-family: 'CircularStdBook';
 	font-size: 12px;
 	line-height: 14px;
 	letter-spacing: 1px;	
@@ -510,7 +503,6 @@ body {
 }
 
 .pitch .pitch-info .project-details p {
-	font-family: 'CircularStdBook';
 	font-size: 16px;
 	line-height: 19px;
 	display: flex;
@@ -520,7 +512,6 @@ body {
 }
 
 .pitch .pitch-info .project-details a p {
-	font-family: 'CircularStdBook';
 	font-size: 16px;
 	line-height: 19px;	
 	color: #A5A5FF;
@@ -539,14 +530,12 @@ body {
 }
 
 .enterprise-header h4 {
-	font-family: 'CircularStd-Medium';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #FFFFFF;
 }
 
 .enterprise-header p {
-	font-family: 'CircularStdBook';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #FFFFFF;
@@ -560,7 +549,6 @@ body {
 }
 
 .pitch .pitch-info .enterprise-details h5 {
-	font-family: 'CircularStdBook';
 	font-size: 12px;
 	line-height: 14px;
 	letter-spacing: 1px;	
@@ -569,7 +557,6 @@ body {
 }
 
 .pitch .pitch-info .enterprise-details p {
-	font-family: 'CircularStdBook';
 	font-size: 16px;
 	line-height: 19px;
 	display: flex;
@@ -579,7 +566,6 @@ body {
 }
 
 .pitch .pitch-info .enterprise-details a p {
-	font-family: 'CircularStdBook';
 	font-size: 16px;
 	line-height: 19px;	
 	color: #A5A5FF;
@@ -597,7 +583,6 @@ body {
 }
 
 .pitch .pitch-details h4 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 56px;	
 	text-align: center;	
@@ -606,7 +591,6 @@ body {
 }
 
 .pitch .pitch-details p {
-	font-family: 'CircularStdBook';
 	font-size: 24px;
 	line-height: 28px;
 	text-align: center;	
@@ -630,7 +614,6 @@ body {
 }
 
 .benefits .benefits-title h4 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 37px;
 	text-align: center;	
@@ -649,7 +632,6 @@ body {
 }
 
 .benefits .benefits-info .benefits-block h5 {
-	font-family: 'CircularStd-Medium';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #6565D5;
@@ -657,7 +639,6 @@ body {
 }
 
 .benefits .benefits-info .benefits-block p {
-	font-family: 'CircularStdBook';
 	font-size: 18px;
 	line-height: 21px;	
 	color: #32337C;
@@ -685,7 +666,6 @@ body {
 }
 
 .cta .cta-info h3 {
-	font-family: 'CircularStdBook';
 	font-size: 28px;
 	line-height: 33px;
 	text-align: center;	
@@ -698,7 +678,6 @@ body {
 }
 
 .cta .cta-info a p {
-	font-family: 'CircularStdBook';
 	font-size: 15px;
 	line-height: 18px;
 	text-align: center;
@@ -732,7 +711,6 @@ body {
 }
 
 .case-hero h1 {
-	font-family: 'CircularStd-Medium';
   color: #EBF0FF;
   text-align: center;
   font-size: 42px;
@@ -770,24 +748,17 @@ body {
 /* About Us */
 /***********/
 
-
-/* About Hero */
-
-.about-page {
-	background: #32337C;
-}
-
-.about-page svg{
-	display: block;
-}
-
 .about-hero {
-	background: #32337C;
+	background: url(../images/about-hero-overlay.png) no-repeat left center #32337C;
 	padding: 100px 0px 0px 0px;
+	background-size: cover;
+}
+
+.about-hero svg {
+  display: block;
 }
 
 .about-hero h2 {
-	font-family: 'CircularStd-Medium';
   font-size: 50px;
   line-height: 56px;
   color: #EBF0FF;
@@ -798,15 +769,12 @@ body {
 	padding: 100px 0px 0px 0px;
 }
 
-/* About */
-
 .about {
 	padding: 50px 0px 0px 0px;
 	background: #EBF0FF;
 }
 
 .about h3 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 56px;
 	color: #32337C;
@@ -814,11 +782,9 @@ body {
 }
 
 .about p {
-	font-family: 'CircularStd-Medium';
 	font-size: 18px;
-	line-height: 21px;
-	color: #32337C;
-	opacity: 0.83;
+	line-height: 1.4;
+	color: rgba(50, 51, 124, .8);
 }
 
 .about p em {
@@ -837,7 +803,6 @@ body {
 }
 
 .about-values h2 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 37px;	
 	color: #32337C;
@@ -850,7 +815,6 @@ body {
 }
 
 .about-values h3 {
-	font-family: 'CircularStd-Medium';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #6565D5;
@@ -858,11 +822,9 @@ body {
 }
 
 .about-values p {
-	font-family: 'CircularStd-Medium';
 	font-size: 18px;
-	line-height: 21px;	
-	color: #32337C;
-	opacity: 0.83;
+	line-height: 1.4;	
+	color: rgba(50, 51, 124, .8);
 }
 
 /* About Team */
@@ -881,7 +843,6 @@ body {
 }
 
 .the-team h2 {
-	font-family: 'CircularStd-Medium';
 	font-size: 32px;
 	line-height: 37px;	
 	color: #FFFFFF;
@@ -934,14 +895,12 @@ body {
 }
 
 .the-team .team-members .team-member .member-info .name {
-	font-family: 'CircularStd-Medium';
 	font-size: 24px;
 	line-height: 28px;	
 	color: #FFFFFF;
 }
 
 .the-team .team-members .team-member .member-info .position {
-	font-family: 'CircularStd-Medium';
 	font-size: 15px;
 	line-height: 18px;	
 	color: #8686FF;
@@ -976,7 +935,6 @@ body {
 }
 
 .footer-links p {
-	font-family: 'CircularStdBook';
 	font-size: 15px;
 	line-height: 18px;	
 	color: #6365D6;
