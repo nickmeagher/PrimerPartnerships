@@ -20,6 +20,15 @@
 	url('../fonts/CircularStd-Black.woff2')format('woff2');
 }
 
+
+/* General */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
 /* Hero */
 
 .hero {
@@ -96,14 +105,13 @@
 /* Landing Hero */
 .landing-hero {
 	background: #32337C;
-	
+	position: relative;
 }
 
 .landing-hero .text-block {	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
 }
 
 .landing-hero h2 {
@@ -136,9 +144,32 @@
 	padding: 75px 0px 87px 0px;
 }
 
-.landing-hero svg {
+.landing-hero svg.bottom-wave {
 	display: block;
+	position: relative;
+	z-index: 2;
 }
+
+.landing-hero img.ship {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.landing-hero .circle-one {
+  position: absolute;
+  bottom: 12%;
+  left: -40px;
+  
+  height: 120px;
+  width: 120px;
+  border-radius: 120px;
+  z-index: 1;
+  
+  background: linear-gradient(224.71deg, #5D5FBB 1.33%, #C799F1 100.5%);
+  box-shadow: -6px 6px 14px rgba(101, 101, 126, 0.136804);
+}
+
 
 /* Landing About Us */
 
@@ -257,7 +288,7 @@
 
 
 .some-work a .ceramic-panel {
-	background-image: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/images/Group%2042.png');
+	background-image: url('../images/interceramic.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 430px;
@@ -292,7 +323,7 @@
 }
 
 .some-work a .kojima-panel {
-	background-image: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/images/Group%2042%20copy.png');
+	background-image: url('../images/Group%2042%20copy.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 430px;
@@ -326,7 +357,7 @@
 }
 
 .some-work a .senseye-panel {
-	background-image: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/images/Group%2042%20copy%202.png');
+	background-image: url('../images/Group%2042%20copy%202.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 430px;
@@ -360,7 +391,7 @@
 }
 
 .some-work a .cloudvara-panel {
-	background-image: url('file:///Users/dawsonwear/Documents/Test%20Projects/Primerco/themes/Primer%202020/library/images/Group%2042%20copy%203.png');
+	background-image: url('../images/Group%2042%20copy%203.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 430px;
