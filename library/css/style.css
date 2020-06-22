@@ -105,6 +105,151 @@ p {
 .btn.btn-primary:hover {
 	opacity: .8;
 }
+
+/**************/
+/* Home Page */
+/************/
+.homepage-hero {
+	background: #32337C;
+	padding: 270px 0 0 0;
+}
+
+.homepage-hero h1 {
+	font-size: 48px;
+	line-height: 1;
+	color: #EBF0FF;
+	margin-bottom: 30px;
+}
+
+.homepage-hero p {
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(235, 240, 255, 0.8);
+	margin-bottom: 60px;
+}
+
+.homepage-hero svg {
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+.homepage-hero img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.homepage-hero a.btn {
+	margin-right: 30px;
+}
+
+.homepage-hero a.textlink {
+	color: #7069D2;
+	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
+  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
+  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */	
+}
+
+.homepage-hero a.textlink:hover {
+	text-decoration: none;
+	color: #F8B0CB ;
+	opacity: .8;
+}
+
+/* What We Do */
+
+.whatwedo {
+	background: #EBF0FF;
+}
+
+.whatwedo h2 {
+	font-size: 32px;
+	line-height: 56px;	
+	color: #32337C;
+	margin-bottom: 75px;
+}
+
+.whatwedo .left {
+	margin-right: 75px;
+}
+.whatwedo .left p {
+	color: rgba(50, 51, 124, 0.8);
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 130px;
+}
+
+.whatwedo .middle {
+	background: #32337C;
+	margin-right: 20px;
+}
+
+.whatwedo .middle h3 {
+	font-size: 24px;
+	line-height: 28px;	
+	color: #FFFFFF;
+	margin: 40px 125px 50px 35px;
+}
+
+.whatwedo .middle p {
+	font-size: 18px;
+	line-height: 21px;	
+	color: #FFFFFF;
+	margin: 0 75px 0 35px;
+}
+
+.whatwedo .right{
+	background: #FFFFFF;
+}
+
+.whatwedo .right h3 {
+	font-size: 24px;
+	line-height: 28px;	
+	color: #404041;
+	margin: 40px 125px 50px 35px;
+}
+
+.whatwedo .right p {
+	font-size: 18px;
+	line-height: 21px;	
+	color: #404041;
+	margin: 0 75px 0 35px;
+}
+
+/* Our Work */
+
+.our-work {
+	background: #EBF0FF;
+	padding-top: 150px; 
+}
+
+.our-work h2 {
+	font-size: 32px;
+	line-height: 56px;	
+	color: #32337C;
+	margin-bottom: 75px;
+}
+
+.cta-swoop-home {
+	background: #EBF0FF;
+	display: block;
+	padding-top: 200px;
+}
+
+
+/* Primer Workspace */
+
+.primer-workspace {
+	background: #EBF0FF;
+	padding: 150px 0;
+}
+
+.footer-wrap-home {
+	background: #EBF0FF;
+}
+
 /*****************/
 /* Landing Page */
 /***************/
@@ -919,6 +1064,7 @@ p {
 	line-height: 18px;	
 	color: #8686FF;
 }
+
 
 
 /***********/
