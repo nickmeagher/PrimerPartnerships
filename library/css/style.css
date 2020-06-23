@@ -24,6 +24,7 @@
 /* General */
 
 body {
+  background: #EBF0FF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
@@ -35,6 +36,13 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'CircularStdBook';
+}
+
+a {
+  -webkit-transition: all 0.2s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.2s ease;/* Firefox 4-15 */
+  -o-transition: all 0.2s ease;/* Opera 10.5-12.00 */
+  transition: all 0.2s ease;/* Firefox 16+, Opera 12.50+ */
 }
 
 /* Hero */
@@ -112,6 +120,8 @@ p {
 .homepage-hero {
 	background: #32337C;
 	padding: 270px 0 0 0;
+	overflow: hidden;
+	position: relative;
 }
 
 .homepage-hero h1 {
@@ -136,8 +146,8 @@ p {
 
 .homepage-hero img {
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	bottom: 150px;
+	right: 25px;
 }
 
 .homepage-hero a.btn {
@@ -230,6 +240,71 @@ p {
 	line-height: 56px;	
 	color: #32337C;
 	margin-bottom: 75px;
+}
+
+.work-slider {
+  width: 80%;
+  margin-left: auto;
+}
+
+.work-slider .slick-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 9999;
+  
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  
+  background: url('../images/prev-arrow.svg') center center #6365D6;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  
+  -webkit-transition: all 0.2s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.2s ease;/* Firefox 4-15 */
+  -o-transition: all 0.2s ease;/* Opera 10.5-12.00 */
+  transition: all 0.2s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.work-slider .slick-prev:hover {
+  opacity: .9;
+}
+
+.work-slider .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 9999;
+  
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  
+  background: url('../images/next-arrow.svg') center center #6365D6;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  
+  -webkit-transition: all 0.2s ease;/* Safari 3.2+, Chrome */
+  -moz-transition: all 0.2s ease;/* Firefox 4-15 */
+  -o-transition: all 0.2s ease;/* Opera 10.5-12.00 */
+  transition: all 0.2s ease;/* Firefox 16+, Opera 12.50+ */
+}
+
+.work-slider .slick-next:hover {
+  opacity: .9;
 }
 
 .cta-swoop-home {
@@ -792,51 +867,52 @@ p {
 
 
 
-/* CTA Page */
-
-.cta-swoop {
-	display: block;
-}
+/* CTA */
 
 .cta {
-	background: #6264D6;	
-	align-items: center;
-}
-.cta svg {
-	display: block;
+	margin-top: 300px;
+	position: relative;
 }
 
-.cta .cta-info a{
-	text-decoration: none;
+.cta img {
+  width: 100%;
+  height: auto;
 }
 
-.cta .cta-info h3 {
-	font-size: 28px;
-	line-height: 33px;
-	text-align: center;	
-	color: #FFFFFF;
-	padding-bottom: 30px;
+.cta .cta-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
 }
 
-.cta .cta-info h3 str {
-	color: #C799F1;
+.cta h3 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
-.cta .cta-info a p {
-	font-size: 15px;
-	line-height: 18px;
-	text-align: center;
-	text-decoration: underline;
-	color: #FFFFFF;
-	-webkit-transition: all 0.3s ease;/* Safari 3.2+, Chrome */
-  -moz-transition: all 0.3s ease;/* Firefox 4-15 */
-  -o-transition: all 0.3s ease;/* Opera 10.5-12.00 */
-  transition: all 0.3s ease;/* Firefox 16+, Opera 12.50+ */
+.cta a {
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }
 
-.cta .cta-info a:hover p {
-	opacity: 0.8;
+.cta a:hover {
+  opacity: .8;
 }
+
+
+
+
+
+
+
 
 /**********************/
 /* Case Studies Page */
