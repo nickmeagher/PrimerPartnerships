@@ -139,9 +139,7 @@ a {
 	background-image: url("../images/hamburger.svg");
 }
 
-.navbar-light .navbar-collapse.collapse.show {
-	background: #32337C;
-}
+
 /* Hero */
 
 .hero {
